@@ -11,6 +11,7 @@ import UIKit
 class RecordingVoiceViewController: UIViewController {
 
     @IBOutlet weak var recordButton: UIButton!
+    @IBOutlet weak var stopRecordingButton: UIButton!
     @IBOutlet weak var recordingLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
