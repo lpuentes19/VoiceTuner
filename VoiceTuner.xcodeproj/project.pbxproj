@@ -13,6 +13,7 @@
 		95C842C41FECB00200D3AC21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95C842C21FECB00200D3AC21 /* LaunchScreen.storyboard */; };
 		95C842CD1FECB3B900D3AC21 /* RecordingVoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C842CC1FECB3B900D3AC21 /* RecordingVoiceViewController.swift */; };
 		95C842CF1FED7E8900D3AC21 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C842CE1FED7E8900D3AC21 /* PlaySoundsViewController.swift */; };
+		95C842D11FEDBDA900D3AC21 /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C842D01FEDBDA900D3AC21 /* PlaySoundsViewController+Audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		95C842C51FECB00200D3AC21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95C842CC1FECB3B900D3AC21 /* RecordingVoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingVoiceViewController.swift; sourceTree = "<group>"; };
 		95C842CE1FED7E8900D3AC21 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		95C842D01FEDBDA900D3AC21 /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				95C842BD1FECB00200D3AC21 /* Main.storyboard */,
 				95C842CC1FECB3B900D3AC21 /* RecordingVoiceViewController.swift */,
+				95C842D01FEDBDA900D3AC21 /* PlaySoundsViewController+Audio.swift */,
 				95C842CE1FED7E8900D3AC21 /* PlaySoundsViewController.swift */,
 				95C842CB1FECB01500D3AC21 /* Resources */,
 			);
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95C842BA1FECB00200D3AC21 /* AppDelegate.swift in Sources */,
+				95C842D11FEDBDA900D3AC21 /* PlaySoundsViewController+Audio.swift in Sources */,
 				95C842CF1FED7E8900D3AC21 /* PlaySoundsViewController.swift in Sources */,
 				95C842CD1FECB3B900D3AC21 /* RecordingVoiceViewController.swift in Sources */,
 			);
