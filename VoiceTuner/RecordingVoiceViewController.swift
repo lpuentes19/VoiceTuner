@@ -13,14 +13,24 @@ class RecordingVoiceViewController: UIViewController {
     @IBOutlet weak var recordButton: UIButton!
     @IBOutlet weak var stopRecordingButton: UIButton!
     @IBOutlet weak var recordingLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        stopRecordingButton.isEnabled = false
     }
     
     @IBAction func recordButtonTapped(_ sender: Any) {
-        print("This ish works!")
+        recordingLabel.text = "Recording in progress."
+        recordingLabel.text = "Recording in progress.."
+        recordingLabel.text = "Recording in progress..."
+        recordButton.isEnabled = false
+        stopRecordingButton.isEnabled = true
     }
     
     @IBAction func stopRecordingButtonTapped(_ sender: Any) {
+        recordingLabel.text = "Tap to Record"
+        stopRecordingButton.isEnabled = false
+        recordButton.isEnabled = true
     }
 }
