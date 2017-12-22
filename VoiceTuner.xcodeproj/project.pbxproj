@@ -12,6 +12,7 @@
 		95C842C11FECB00200D3AC21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95C842C01FECB00200D3AC21 /* Assets.xcassets */; };
 		95C842C41FECB00200D3AC21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95C842C21FECB00200D3AC21 /* LaunchScreen.storyboard */; };
 		95C842CD1FECB3B900D3AC21 /* RecordingVoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C842CC1FECB3B900D3AC21 /* RecordingVoiceViewController.swift */; };
+		95C842CF1FED7E8900D3AC21 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C842CE1FED7E8900D3AC21 /* PlaySoundsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		95C842C31FECB00200D3AC21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95C842C51FECB00200D3AC21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95C842CC1FECB3B900D3AC21 /* RecordingVoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingVoiceViewController.swift; sourceTree = "<group>"; };
+		95C842CE1FED7E8900D3AC21 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				95C842BD1FECB00200D3AC21 /* Main.storyboard */,
 				95C842CC1FECB3B900D3AC21 /* RecordingVoiceViewController.swift */,
+				95C842CE1FED7E8900D3AC21 /* PlaySoundsViewController.swift */,
 				95C842CB1FECB01500D3AC21 /* Resources */,
 			);
 			path = VoiceTuner;
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95C842BA1FECB00200D3AC21 /* AppDelegate.swift in Sources */,
+				95C842CF1FED7E8900D3AC21 /* PlaySoundsViewController.swift in Sources */,
 				95C842CD1FECB3B900D3AC21 /* RecordingVoiceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
