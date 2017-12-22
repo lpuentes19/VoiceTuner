@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		95C842BA1FECB00200D3AC21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C842B91FECB00200D3AC21 /* AppDelegate.swift */; };
-		95C842BC1FECB00200D3AC21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C842BB1FECB00200D3AC21 /* ViewController.swift */; };
 		95C842BF1FECB00200D3AC21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95C842BD1FECB00200D3AC21 /* Main.storyboard */; };
 		95C842C11FECB00200D3AC21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95C842C01FECB00200D3AC21 /* Assets.xcassets */; };
 		95C842C41FECB00200D3AC21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95C842C21FECB00200D3AC21 /* LaunchScreen.storyboard */; };
+		95C842CD1FECB3B900D3AC21 /* RecordingVoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C842CC1FECB3B900D3AC21 /* RecordingVoiceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		95C842B61FECB00200D3AC21 /* VoiceTuner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceTuner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95C842B91FECB00200D3AC21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		95C842BB1FECB00200D3AC21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		95C842BE1FECB00200D3AC21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95C842C01FECB00200D3AC21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95C842C31FECB00200D3AC21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95C842C51FECB00200D3AC21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95C842CC1FECB3B900D3AC21 /* RecordingVoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingVoiceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				95C842BD1FECB00200D3AC21 /* Main.storyboard */,
-				95C842BB1FECB00200D3AC21 /* ViewController.swift */,
+				95C842CC1FECB3B900D3AC21 /* RecordingVoiceViewController.swift */,
 				95C842CB1FECB01500D3AC21 /* Resources */,
 			);
 			path = VoiceTuner;
@@ -144,8 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95C842BC1FECB00200D3AC21 /* ViewController.swift in Sources */,
 				95C842BA1FECB00200D3AC21 /* AppDelegate.swift in Sources */,
+				95C842CD1FECB3B900D3AC21 /* RecordingVoiceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +284,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H9L7P6ZCN6;
-				INFOPLIST_FILE = VoiceTuner/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/VoiceTuner/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VoiceTuner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,7 +299,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H9L7P6ZCN6;
-				INFOPLIST_FILE = VoiceTuner/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/VoiceTuner/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VoiceTuner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
