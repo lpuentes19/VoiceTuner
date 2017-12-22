@@ -60,8 +60,8 @@
 			children = (
 				95C842BD1FECB00200D3AC21 /* Main.storyboard */,
 				95C842CC1FECB3B900D3AC21 /* RecordingVoiceViewController.swift */,
-				95C842D01FEDBDA900D3AC21 /* PlaySoundsViewController+Audio.swift */,
 				95C842CE1FED7E8900D3AC21 /* PlaySoundsViewController.swift */,
+				95C842D01FEDBDA900D3AC21 /* PlaySoundsViewController+Audio.swift */,
 				95C842CB1FECB01500D3AC21 /* Resources */,
 			);
 			path = VoiceTuner;
