@@ -84,7 +84,7 @@ extension PlaySoundsViewController: AVAudioPlayerDelegate {
             connectAudioNodes(audioPlayerNode, changeRatePitchNode, audioEngine.outputNode)
         }
         
-        // schedule to play and start the engine!
+        // schedule to play and start the engine
         audioPlayerNode.stop()
         audioPlayerNode.scheduleFile(audioFile, at: nil) {
             
