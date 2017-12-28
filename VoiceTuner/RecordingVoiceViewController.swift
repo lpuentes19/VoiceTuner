@@ -11,6 +11,7 @@ import AVFoundation
 
 class RecordingVoiceViewController: UIViewController, AVAudioRecorderDelegate {
 
+    // MARK: - Properties
     var audioRecorder: AVAudioRecorder!
     
     @IBOutlet weak var recordButton: UIButton!
@@ -23,6 +24,7 @@ class RecordingVoiceViewController: UIViewController, AVAudioRecorderDelegate {
         configureUI(isRecording: false)
     }
     
+    // MARK: - Configuring UI
     func configureUI(isRecording: Bool) {
         if isRecording {
             recordingLabel.text = "Recording in progress..."
@@ -35,6 +37,7 @@ class RecordingVoiceViewController: UIViewController, AVAudioRecorderDelegate {
         }
     }
     
+    // MARK: - Preparing Audio Recording Capability
     @IBAction func recordButtonTapped(_ sender: Any) {
         configureUI(isRecording: true)
         
@@ -53,6 +56,7 @@ class RecordingVoiceViewController: UIViewController, AVAudioRecorderDelegate {
         audioRecorder.record()
     }
     
+    // MARK: - Ensuring the Audio Recorder Stops Recording
     @IBAction func stopRecordingButtonTapped(_ sender: Any) {
         configureUI(isRecording: false)
         
@@ -70,6 +74,7 @@ class RecordingVoiceViewController: UIViewController, AVAudioRecorderDelegate {
         }
     }
     
+    // MARK: - Prepare for Segue Method
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "toDetailVC" {
             let playSoundsVC = segue.destination as? PlaySoundsViewController
