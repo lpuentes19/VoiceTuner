@@ -1,5 +1,5 @@
 # VoiceTuner
-An app where couples can sign into and share an argument or debate they had with their partner/spouse. Others can view these arguments/debates and vote on who they think is in the right.
+An app where users can record their voice or any sound they please and then play it back using different rates/pitches.
 
 ### Technologies
 * Swift 
