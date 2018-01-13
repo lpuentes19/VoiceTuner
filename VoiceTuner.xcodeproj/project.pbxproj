@@ -39,6 +39,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		95A67C21200A7459008AF32A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				95C842D01FEDBDA900D3AC21 /* PlaySoundsViewController+Audio.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		95A67C22200A7479008AF32A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				95C842CC1FECB3B900D3AC21 /* RecordingVoiceViewController.swift */,
+				95C842CE1FED7E8900D3AC21 /* PlaySoundsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		95C842AD1FECB00100D3AC21 = {
 			isa = PBXGroup;
 			children = (
@@ -59,9 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				95C842BD1FECB00200D3AC21 /* Main.storyboard */,
-				95C842CC1FECB3B900D3AC21 /* RecordingVoiceViewController.swift */,
-				95C842CE1FED7E8900D3AC21 /* PlaySoundsViewController.swift */,
-				95C842D01FEDBDA900D3AC21 /* PlaySoundsViewController+Audio.swift */,
+				95A67C22200A7479008AF32A /* Controllers */,
+				95A67C21200A7459008AF32A /* Extensions */,
 				95C842CB1FECB01500D3AC21 /* Resources */,
 			);
 			path = VoiceTuner;
